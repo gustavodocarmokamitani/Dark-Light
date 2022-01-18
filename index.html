@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/button.css">
+
+</head>
+
+<body id='socialMediaCopy'>
+
+  <div class="container">
+
+    <div class="menu d-flex flex-row justify-content-between align-items-baseline mt-5">
+      <div>
+        <h1 class="text-bold">Social Media Dashboard</h1>
+        <h4 class="text-gray text-bold">Total Followers: 23,004</h4>
+      </div>
+      <div>
+        <button id="dark" type="button" class="btn btn-dark">Dark</button>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="container">
+
+    <div class="socialMedia d-flex justify-content-center align-items-center mt-5">
+
+      <div class="row">
+        <div class="col-sm-12 col-lg-3 col-md-6 mr-5">
+          <div id="socialMediaCards" class="facebook text-center d-flex flex-column justify-content-center">
+            <span class="imageSocialMedia text-bold text-gray"><img src="./images/icon-facebook.svg"
+                alt="facebook">@nathanf</span>
+            <p class="text-bold text-xl">1987</p>
+            <h4 class="text-gray">F O L L O W E R S</h4>
+            <span class="text-green text-bold"><img src="./images/icon-up.svg" alt="Arrow Up">12 Today</span>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-lg-3 col-md-6">
+          <div id="socialMediaCards" class="instagram text-center d-flex flex-column justify-content-center">
+            <span class="imageSocialMedia text-bold text-gray"><img src="./images/icon-instagram.svg"
+                alt="instagram">@nathanf</span>
+            <p class="text-bold text-xl">1987</p>
+            <h4 class="text-gray">F O L L O W E R S</h4>
+            <span class="text-green text-bold"><img src="./images/icon-up.svg" alt="Arrow Up">99 Today</span>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-lg-3 col-md-6">
+          <div id="socialMediaCards" class="twitter text-center d-flex flex-column justify-content-center">
+            <span class="imageSocialMedia text-bold text-gray"><img src="./images/icon-twitter.svg"
+                alt="twitter">@nathanf</span>
+            <p class="text-bold text-xl">1987</p>
+            <h4 class="text-gray">F O L L O W E R S</h4>
+            <span class="text-green text-bold"><img src="./images/icon-up.svg" alt="Arrow Up">1099 Today</span>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-lg-3 col-md-6">
+          <div id="socialMediaCards" class="youtube text-center d-flex flex-column justify-content-center mb-5">
+            <span class="imageSocialMedia text-bold text-gray"><img src="./images/icon-youtube.svg"
+                alt="youtube">@nathanf</span>
+            <p class="text-bold text-xl">1987</p>
+            <h4 class="text-gray">F O L L O W E R S</h4>
+            <span class="text-red text-bold"><img src="./images/icon-down.svg" alt="Arrow Down">144 Today</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="overview mt-5">
+
+      <h1 class="text-bold text-gray mb-5">Overview - Today</h1>
+
+      <div class="overviewLayout row">
+        <div class="col-lg-3 col-md-6">
+          <div id="overviewCards" class="p-5 mt-5">
+            <div class="d-flex justify-content-between mb-3">
+              <span class="text-gray text-bold">Page Views</span> <img src="./images/icon-facebook.svg" alt="">
+            </div>
+            <div class="d-flex justify-content-between">
+              <span class="text-lg text-bold">87</span><span class="text-bold text-green text-xs mt-4"><img
+                  src="./images/icon-up.svg" alt="">3%</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div id="overviewCards" class="p-5 mt-5">
+            <div class="d-flex justify-content-between mb-3">
+              <span class="text-gray text-bold">Likes</span> <img src="./images/icon-facebook.svg" alt="">
+            </div>
+            <div class="d-flex justify-content-between">
+              <span class="text-lg text-bold">52</span><span class="text-bold text-red text-xs mt-4"><img
+                  src="./images/icon-down.svg" alt="">2%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div id="overviewCards" class="p-5 mt-5">
+            <div class="d-flex justify-content-between mb-3">
+              <span class="text-gray text-bold">Likes</span> <img src="./images/icon-instagram.svg" alt="">
+            </div>
+            <div class="d-flex justify-content-between">
+              <span class="text-lg text-bold">5462</span><span class="text-bold text-green text-xs mt-4"><img
+                  src="./images/icon-up.svg" alt="">2257%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div id="overviewCards" class="p-5 mt-5">
+            <div class="d-flex justify-content-between mb-3">
+              <span class="text-gray text-bold">Profile Views</span> <img src="./images/icon-instagram.svg" alt="">
+            </div>
+            <div class="d-flex justify-content-between">
+              <span class="text-lg text-bold">8239</span><span class="text-bold text-green text-xs mt-4"><img
+                  src="./images/icon-up.svg" alt="">1375%</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="overviewLayout row mt-5">
+        <div class="col-lg-3 col-md-6">
+          <div id="overviewCards" class="p-5 mt-5">
+            <div class="d-flex justify-content-between mb-3">
+              <span class="text-gray text-bold">Retweets</span> <img src="./images/icon-twitter.svg" alt="">
+            </div>
+            <div class="d-flex justify-content-between">
+              <span class="text-lg text-bold">117</span><span class="text-bold text-green text-xs mt-4"><img
+                  src="./images/icon-up.svg" alt="">303%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div id="overviewCards" class="p-5 mt-5">
+            <div class="d-flex justify-content-between mb-3">
+              <span class="text-gray text-bold">Likes</span> <img src="./images/icon-twitter.svg" alt="">
+            </div>
+            <div class="d-flex justify-content-between">
+              <span class="text-lg text-bold">52</span><span class="text-bold text-green text-xs mt-4"><img
+                  src="./images/icon-up.svg" alt="">553%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div id="overviewCards" class="p-5 mt-5">
+            <div class="d-flex justify-content-between mb-3">
+              <span class="text-gray text-bold">Likes</span> <img src="./images/icon-youtube.svg" alt="">
+            </div>
+            <div class="d-flex justify-content-between">
+              <span class="text-lg text-bold">107</span><span class="text-bold text-red text-xs mt-4"><img
+                  src="./images/icon-down.svg" alt="">19%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div id="overviewCards" class="p-5 mt-5P">
+            <div class="d-flex justify-content-between mb-3">
+              <span class="text-gray text-bold">Total Views</span> <img src="./images/icon-youtube.svg" alt="">
+            </div>
+            <div class="d-flex justify-content-between">
+              <span class="text-lg text-bold">8239</span><span class="text-bold text-red text-xs mt-4"><img
+                  src="./images/icon-down.svg" alt="">12%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer"></div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
